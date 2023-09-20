@@ -16,9 +16,6 @@ public class ContaTerminal {
         System.out.println("Digite o valor do deposito inicial: ");
         float dep = scanner.nextFloat();
 
-        System.out.println("Olá " + nome +
-                ", obrigado por criar uma conta em nosso banco," +
-                " sua agência é " + agencia + ", conta " + conta + " e seu saldo "
-                + dep + " já está disponível para saque. ");
+        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco," + " sua agência é " + agencia + ", conta " + conta + " e seu saldo " + dep + " já está disponível para saque. ");
     }
 }
